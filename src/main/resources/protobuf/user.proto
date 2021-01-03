@@ -1,0 +1,11 @@
+syntax = "proto2";
+
+package com.franklin.samples.kafka.models;
+
+option java_outer_classname = "Models";
+option java_package = "com.franklin.samples.kafka";
+
+message User {
+  required string name = 1;
+  optional int32 age = 2;
+}
